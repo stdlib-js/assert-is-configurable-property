@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isConfigurableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-configurable-property@deno/mod.js';
+import isConfigurableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-configurable-property@v0.1.0-deno/mod.js';
 ```
 
 #### isConfigurableProperty( value, property )
@@ -121,7 +121,7 @@ bool = isConfigurableProperty( obj, 'boop' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isConfigurableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-configurable-property@deno/mod.js';
+import isConfigurableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-configurable-property@v0.1.0-deno/mod.js';
 
 var bool = isConfigurableProperty( { 'a': 'b' }, 'a' );
 // returns true
