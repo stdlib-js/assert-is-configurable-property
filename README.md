@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isConfigurableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-configurable-property@esm/index.mjs';
+import isConfigurableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-configurable-property@v0.2.2-esm/index.mjs';
 ```
 
 #### isConfigurableProperty( value, property )
@@ -126,7 +126,7 @@ bool = isConfigurableProperty( obj, 'boop' );
 <body>
 <script type="module">
 
-import isConfigurableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-configurable-property@esm/index.mjs';
+import isConfigurableProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-configurable-property@v0.2.2-esm/index.mjs';
 
 var bool = isConfigurableProperty( { 'a': 'b' }, 'a' );
 // returns true
